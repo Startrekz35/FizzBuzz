@@ -3,7 +3,7 @@
 int main()
 {
 const size_t COUNT {100};
-   size_t i{1}; //Iterator declaration
+   size_t i{0}; //Iterator declaration
    
    //I at first attempted a for loop but ran into problems so I used a while loop
    while (i < COUNT) 
