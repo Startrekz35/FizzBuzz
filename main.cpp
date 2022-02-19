@@ -11,11 +11,11 @@ const size_t COUNT {100};
     {
         std::cout << "FizzBuzz" << std::endl;
     }
-    else if (/* condition */)
+    else if (i%3 == 0)
     {
-        /* code */
+        std::cout << "Fizz" << std::endl;
     }
-    
+
     else
     {
         std::cout << i << std::endl;
